@@ -1,0 +1,50 @@
+.nav_ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:black;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.nav_li {
+  float: left;
+}
+
+.nav_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.nav_li a:hover {
+  background-color: rgb(39, 39, 39);
+  transition: 0.5s;
+}
+
+.nav_liRight {
+  float: right;
+}
+
+.nav_liRight a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.nav_liRight a:hover {
+  background-color: rgb(39, 39, 39);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 850px) {
+  .nav_li .nav_liRight, 
+  .nav_ul {
+    font-size: 14px;
+  
+  }
+}

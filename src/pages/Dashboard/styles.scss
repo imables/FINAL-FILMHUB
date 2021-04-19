@@ -1,0 +1,30 @@
+.biobox {
+    display: flex;
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.biobutton {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list{
+    list-style-type: none !important;
+}
+
+.postsList{
+    white-space: pre-wrap;
+}
+
+.captionPost {
+    white-space: pre-wrap;
+}

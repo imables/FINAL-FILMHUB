@@ -1,0 +1,103 @@
+.film{
+  width:20%;
+}
+
+.film img{
+  width:100%;
+  height:80%;
+}
+
+.films{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.searchBar{
+    border-radius: 5px;
+    width: 30%;
+    padding: 2%;
+    background-color: #f5f5f5;
+    padding-top:1%;
+}
+
+.searchItem input{
+  margin-left:2%;
+}
+
+.searchResults{
+  background:white;
+  padding-bottom: 1%;
+  height:20%;
+}
+
+#li{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.searchContainer ul {
+  height: 200px;
+  width: auto;
+  overflow-y: scroll;
+  list-style-type: none;
+  position: absolute;
+  z-index: 1;
+}
+
+iframe{
+  margin-top:2%;
+  margin-left: 5%;
+  width:90%;
+  height:30em;
+}
+
+.Carousel-Caption{
+  opacity: 0.6;
+  background:#ffff;
+  width:40%;
+  position: absolute;
+  margin-left:15%;
+  margin-bottom: 2%;
+  color:black
+}
+
+.CinemaMap h4{
+  padding-top:2%;
+  padding-left: 5%;
+
+}
+
+.map{
+  width:40%;
+}
+
+
+  

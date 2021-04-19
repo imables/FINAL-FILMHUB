@@ -1,0 +1,7 @@
+.all_Reviews {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}

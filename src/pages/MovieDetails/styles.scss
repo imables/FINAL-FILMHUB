@@ -1,0 +1,87 @@
+.movie_content {
+  max-width: 75%;
+  margin: 40px auto;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.movie-graphics {
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-graphics img {
+  width: auto;
+  height: 260px;
+  margin: 5px;
+}
+
+.movie-graphics iFrame {
+  width: 460px;
+  height: 260px;
+  margin: 5px;
+}
+
+.movie-overview {
+  display: block;
+  float: left;
+}
+
+.movie-information {
+  display: block;
+  text-align: right;
+  float: right;
+}
+
+.movie-information p {
+  margin: 0;
+}
+
+.movie-actors {
+  padding-top: 5px;
+  display: block;
+  float: left;
+  width: 720px;
+  height: 400px;
+}
+
+.movie-actors img{
+  width: auto;
+  padding: 2px;
+}
+
+.movie-actors table {
+  width: 700px;
+}
+
+.movie-actors-content {
+  width: auto;
+  height: 400px;
+  overflow: auto;
+}
+
+.movie-actors th {
+  text-align: center;
+  width: 3.125em;
+}
+
+.movie-actors td {
+  height: 10em;
+  width: 3.125em;
+  margin: auto;
+  color: black;
+}
+
+.movie-actors .actor-text {
+  padding-left: 0.5%;
+  padding-top: 13%;
+}
+
+.movie-actors tr:nth-child(even) {
+  background-color: #dddddd;
+}
+

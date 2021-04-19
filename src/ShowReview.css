@@ -1,0 +1,178 @@
+.review {
+    width: 900px;
+    max-width: 900px;
+    background-color: #292929;
+    margin-bottom: 45px;
+    max-height: 800px;
+    overflow-y: scroll;
+    overflow-x: disabled;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+    border-radius: 8px;
+    box-shadow: 0 10px 6px -6px black;
+}
+
+@media only screen and (max-width: 900px) {
+    .review {
+        max-width: 40%;
+        max-height: 600px;
+        overflow-wrap: break-word;
+    }
+
+    .insertComment {
+        width: 10px;
+        height: 20px;
+  }
+}
+
+.review::-webkit-scrollbar {
+    display: none;
+}
+
+.reviewName {
+    padding: 10px;
+    color: white;
+    border-bottom:rgb(70, 70, 70) solid;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+.reviewTitle {
+    color: white;
+    padding: 10px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.reviewMovie {
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+.reviewRating {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom:rgb(70, 70, 70) solid;
+}
+
+.reviewingPara {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+}
+
+.reviewImage {
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.likeSection {
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.likeDisplay {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.likeDisplay:hover {
+    background-color: #3A3B3C;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.likeItText.bluelikeItText {
+    color: #4080FF;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commentArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.insertComment {
+    width: 92%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.insertComment::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .insertComment {
+        width: 80%;
+        height: 20px;
+  }
+}
+
+.currentAcc {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hideIt{
+    display: none;
+}
+
+.commenter {
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: #3A3B3C;
+
+}
+
+.commentChanges p {
+    margin-top: 5px;
+}
+
+.commentChanges h3 {
+    font-weight: 700;
+    font-size: 15px;
+}

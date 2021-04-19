@@ -1,0 +1,47 @@
+.ALL {
+    display: flex;
+    flex-direction: column;  
+}
+
+.titles{
+text-align: center;
+text-decoration: underline;
+}
+
+.this_week{
+    border: black solid;
+    width: 100%;
+    background-color:slategrey;
+    max-height: 400px;
+    overflow-y: scroll;  
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.this_week::-webkit-scrollbar {
+    display: none;
+}
+
+.next_week {
+    border: black solid;
+    width: 100%;
+    background-color:slategrey;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.next_week::-webkit-scrollbar {
+    display: none;
+}
+
+.t_week {
+    font-size: 30px;
+}
+
+.n_week {
+    font-size: 30px;
+}
+
+td, th {
+    color: white;
+}
