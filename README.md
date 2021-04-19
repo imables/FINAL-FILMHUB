@@ -5,5 +5,7 @@ Instructions For Application:
 Click open folder and locate the downloaded folder (FINAL-FILMHUB)
 
 Open in terminal (cd FINAL-FILMHUB)
+
 Run npm install
+
 Then to run on local server - npm start
