@@ -1,6 +1,13 @@
 Instructions For Application:
 
-prerequisite - download node and npm - https://phoenixnap.com/kb/install-node-js-npm-on-windows
+prerequisite : 
+
+download node and npm - https://phoenixnap.com/kb/install-node-js-npm-on-windows
+
+download visual studio code - https://code.visualstudio.com/
+
+
+Steps:
 
 1. (Make sure to use this in Visual Studio Code - To open terminal press: ctrl ' )
 
