@@ -2,6 +2,11 @@ import React from 'react';
 import './styles.scss';
 import TrailerSlide from './../../components/TrailerSlides';
 
+/**This displays the trailerSlides
+ * Displays a map of the local cinemas
+ * @author Kieron Ferrey
+ */
+
 const Homepage = props => {
 
     return (

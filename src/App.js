@@ -13,7 +13,7 @@ import Viewings2 from './Viewings2'
 
 // components
 import AdminToolbar from './components/AdminToolbar';
-import Searchbar from './components/SearchBar';
+import SearchBar from './components/SearchBar';
 
 //hoc
 import WithAuth from './hoc/withAuth';
@@ -73,7 +73,7 @@ const App = props => {
         <Route exact path="/" render={() => (
           <HomepageLayout>
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <Homepage />
           </HomepageLayout>
 
@@ -88,7 +88,7 @@ const App = props => {
           render={() => (
             <MainLayout>
               <NavBar />
-              <Searchbar />
+              <SearchBar />
               <Login />
             </MainLayout>
 
@@ -97,7 +97,7 @@ const App = props => {
         <Route path="/recovery" render={() => (
           <MainLayout>
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <Recovery />
           </MainLayout>
         )} />
@@ -106,7 +106,7 @@ const App = props => {
           <WithAuth>
             <MainLayout>
               <NavBar />
-              <Searchbar />
+              <SearchBar />
               <Dashboard />
             </MainLayout>
           </WithAuth>
@@ -116,7 +116,7 @@ const App = props => {
           <WithAdminAuth>
             <MainLayout>
               <NavBar />
-              <Searchbar />
+              <SearchBar />
               <Admin />
             </MainLayout>
           </WithAdminAuth>
@@ -126,7 +126,7 @@ const App = props => {
           <WithAdminAuth>
             <MainLayout>
               <NavBar />
-              <Searchbar />
+              <SearchBar />
               <Posts />
             </MainLayout>
           </WithAdminAuth>
@@ -139,7 +139,7 @@ const App = props => {
         <Route path="/reviews">
           <div className="navbarStick">
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <HomepageLayout>
               <div className="app__page">
                 <div className="app__posts">
@@ -154,7 +154,7 @@ const App = props => {
         <Route path="/showings">
           <div className="navbarStick">
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <HomepageLayout>
               <Viewings2 />
             </HomepageLayout>
@@ -164,7 +164,7 @@ const App = props => {
         <Route path="/Movies">
           <div className="navbarStick">
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <Movies />
           </div>
         </Route>
@@ -172,7 +172,7 @@ const App = props => {
         <Route path="/movie_details/:id">
           <div className="navbarStick">
             <NavBar />
-            <Searchbar />
+            <SearchBar />
             <MovieDetails />
           </div>
         </Route>

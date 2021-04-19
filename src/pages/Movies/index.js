@@ -5,8 +5,18 @@ import NewMovies from "../../components/NewMovies";
 import TopRated from "../../components/TopRated";
 import './styles.scss';
 
+/**
+ * This shows the movies page displays filters and calling the correct class for each
+ * @author Kieron Ferrey
+ */
+
 class FilterMovies extends React.Component {
     state = { displayMovies: <TrendingMovies /> };
+
+    /**
+     * This sets the state depending on which button is pressed.
+     * @param {the button thats pressed} e 
+     */
 
     handleButton = (e) => {
         this.setState({ displayMovies: e.target.value }, () => {
@@ -22,6 +32,10 @@ class FilterMovies extends React.Component {
         })
     }
 
+    /**
+     * displays the buttons and the class which is pressed.
+     * @returns the filter buttons.
+     */
     render() {
         return (
             <div>

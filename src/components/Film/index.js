@@ -2,6 +2,12 @@ import React from "react";
 import './styles.scss';
 import { Link } from "react-router-dom";
 
+/**
+  * Film displays the movie poster and title as well as linking to the individual movie details page.
+  *
+  * @author Kieron Ferrey
+  */
+
 
 class Film extends React.Component {
   state = { data: [] };

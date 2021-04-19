@@ -5,6 +5,8 @@ import React from "react";
  * Search 
  * 
  * Creates the search fields/
+ * 
+ * @author Kieron Ferrey
  */
 class Search extends React.Component {
     render() {

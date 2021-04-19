@@ -3,6 +3,12 @@ import Carousel from 'react-bootstrap/Carousel'
 import Video from '../Video'
 import './styles.scss';
 
+/**
+ * This displays trailers from the top 3 trending movies.
+ * 
+ * @author Kieron Ferrey
+ */
+
 class TrailerSlides extends React.Component {
     constructor(props) {
         super(props);
@@ -13,6 +19,9 @@ class TrailerSlides extends React.Component {
         };
     }
 
+    /**
+     * This gets the top 3 trending movies from the api.
+     */
     componentDidMount() {
         const url = ("https://api.themoviedb.org/3/movie/popular?language=en&api_key=5952fca5b680beeeeb34acf859935418&page=1");
         fetch(url)
@@ -26,6 +35,10 @@ class TrailerSlides extends React.Component {
             });
     }
 
+    /**
+     * This maps the 3 top movies to carousel slides
+     * and passes them to a video class.
+     */
     render() {
         return (
             <div>
